@@ -1,0 +1,36 @@
+name: sharo_partner
+description: "Sharo Partner - Restaurant & Store Merchant Management Portal"
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Bahij
+      fonts:
+        - asset: assets/fonts/BAHIJ.TTF
+    - family: NRT
+      fonts:
+        - asset: assets/fonts/NRT-Reg.ttf
