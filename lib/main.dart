@@ -53,10 +53,10 @@ class _SharoPartnerDashboardState extends State<SharoPartnerDashboard> {
       'id': 'SHR-9182',
       'customer': 'محەمەد کەمال',
       'phone': '0770 123 4567',
-      'address': 'سلێمانی - تووی مەلیك',
+      'address': 'دەربەندیخان - گەڕەکی سەرسیر',
       'time': '١٢:٤٠ پ.ن',
       'items': [
-        {'name': 'کەبابی تایبەتی کەیف', 'qty': 2, 'price': 9500},
+        {'name': 'کەبابی تایبەتی دەربەندیخان', 'qty': 2, 'price': 9500},
         {'name': 'قۆزی بەرخ بە برنجی کوردی', 'qty': 1, 'price': 14000},
       ],
       'total': 33000,
@@ -67,7 +67,7 @@ class _SharoPartnerDashboardState extends State<SharoPartnerDashboard> {
       'id': 'SHR-9180',
       'customer': 'سەروەر ئەحمەد',
       'phone': '0750 998 1122',
-      'address': 'سلێمانی - تاسڵوجە',
+      'address': 'دەربەندیخان - گەڕەکی بیرکێ',
       'time': '١٢:١٥ پ.ن',
       'items': [
         {'name': 'دەبڵ سمەش برگر شاڕۆ', 'qty': 2, 'price': 8000},
@@ -80,10 +80,10 @@ class _SharoPartnerDashboardState extends State<SharoPartnerDashboard> {
       'id': 'SHR-9175',
       'customer': 'دیاری جەلال',
       'phone': '0771 445 6677',
-      'address': 'سلێمانی - سەرچنار',
+      'address': 'دەربەندیخان - گەڕەکی شەمێران',
       'time': '١١:٣٠ پ.ن',
       'items': [
-        {'name': 'کەبابی تایبەتی کەیف', 'qty': 1, 'price': 9500},
+        {'name': 'کەبابی تایبەتی دەربەندیخان', 'qty': 1, 'price': 9500},
       ],
       'total': 9500,
       'status': 'ready',
@@ -151,7 +151,7 @@ class _SharoPartnerDashboardState extends State<SharoPartnerDashboard> {
               'id': id,
               'customer': co['customerName'] ?? 'کڕیاری شاڕۆ',
               'phone': co['customerPhone'] ?? '0770 000 0000',
-              'address': co['customerLocation'] ?? 'سلێمانی',
+              'address': co['customerLocation'] ?? 'دەربەندیخان',
               'time': co['date'] ?? 'ئێستا',
               'items': [
                 {'name': co['itemsSummary'] ?? 'داواکاری شاڕۆ', 'qty': 1, 'price': co['total'] ?? 15000}
@@ -648,8 +648,8 @@ class _SharoPartnerDashboardState extends State<SharoPartnerDashboard> {
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
           child: const ListTile(
             leading: Icon(Icons.store, color: Color(0xFF0A2540)),
-            title: Text('چێشتخانەی کەیف (Keyf)'),
-            subtitle: Text('سلێمانی - شەقامی سالمی'),
+            title: Text('کەبابی دەربەندیخان (Darbandikhan)'),
+            subtitle: Text('دەربەندیخان - ناو بازاڕ'),
           ),
         ),
         const SizedBox(height: 8),
